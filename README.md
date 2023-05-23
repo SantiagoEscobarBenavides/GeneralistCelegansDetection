@@ -11,7 +11,9 @@ To use the models, download the weights `model.pt` and follow the instructions f
 #### [YOLOv5](https://github.com/ultralytics/yolov5/)
 
 `git clone https://github.com/ultralytics/yolov5  # clone`
+
 `cd yolov5`
+
 `pip install -r requirements.txt  # install`
 
 `python detect.py --weights model.pt --img 1728 --source './path/to/source'`
@@ -19,7 +21,9 @@ To use the models, download the weights `model.pt` and follow the instructions f
 #### [YOLOv7](https://github.com/WongKinYiu/yolov7)
 
 `git clone https://github.com/ultralytics/yolov5  # clone`
+
 `cd yolov5`
+
 `pip install -r requirements.txt  # install`
 
 `python detect.py --weights model.pt --conf 0.25 --img-size 1728 --source './path/to/source'`
@@ -29,8 +33,11 @@ To use the models, download the weights `model.pt` and follow the instructions f
 `pip install ultralytics`
 
 `from ultralytics import YOLO`
+
 `# Load a model`
+
 `model = YOLO("yolov8n.pt")`
+
 `results = model('./path/to/source')`
 
 ### Curated dataset sources
